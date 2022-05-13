@@ -1,4 +1,4 @@
-# Automato-Finito
+# Autômato Finito Determinístico e Indeterminístico
 
 Automato Finito capaz de processar cadeias oriundas de linguagens formais.
 Processa determinísticos e não determinísticos.
