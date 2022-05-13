@@ -59,16 +59,16 @@ aaa
 Não entendeu? Segue a definição de cada campo para facilitar:
 
 ```py
-3             <- Quantidade estados
-2 a b         <- Quantidade de simbolos terminais seguido deles
-1 2           <- Quantidade de estados de aceitações seguido deles
-6             <- Quantidade de transições
-0 a 1         <- Transição 1 (q0 --a--> q1)
-0 b 1         <- Transição 2 (q0 --b--> q1)
-1 a 1         <- Transição 3 (q1 --a--> q1)
-1 b 2         <- Transição 4 (q1 --b--> q2)
-2 a 0         <- Transição 5 (q2 --a--> q0)
-2 b 2         <- Transição 6 (q2 --b--> q2)
+3             <- Quantidade estados.
+2 a b         <- Quantidade de simbolos terminais, seguido deles.
+1 2           <- Quantidade de estados de aceitação, seguido deles.
+6             <- Quantidade de transições possíveis no autômato.
+0 a 1         <- Transição 1 (q0 --a--> q1) ( caso eu processe um símbolo terminal "a", estando no estado q0, vou para q1 )
+0 b 1         <- Transição 2 (q0 --b--> q1) ( caso eu processe um símbolo terminal "b", estando no estado q0, vou para q1 )
+1 a 1         <- Transição 3 (q1 --a--> q1) ( caso eu processe um símbolo terminal "a", estando no estado q1, vou para q1 )
+1 b 2         <- Transição 4 (q1 --b--> q2)  ''
+2 a 0         <- Transição 5 (q2 --a--> q0)  ''
+2 b 2         <- Transição 6 (q2 --b--> q2)  ''
 10            <- Quantidade de cadeias a serem verificadas
 abbbba        <- Cadeia 1
 aabbbb        <- Cadeia 2
